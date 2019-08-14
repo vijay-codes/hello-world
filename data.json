@@ -1,0 +1,358 @@
+{
+  "_class" : "hudson.model.ComputerSet",
+  "busyExecutors" : 0,
+  "computer" : [
+    {
+      "_class" : "hudson.model.Hudson$MasterComputer",
+      "actions" : [
+        {
+          
+        }
+      ],
+      "assignedLabels" : [
+        {
+          "name" : "master"
+        }
+      ],
+      "description" : "the master Jenkins node",
+      "displayName" : "master",
+      "executors" : [
+        {
+          
+        },
+        {
+          
+        }
+      ],
+      "icon" : "computer.png",
+      "iconClassName" : "icon-computer",
+      "idle" : true,
+      "jnlpAgent" : false,
+      "launchSupported" : true,
+      "loadStatistics" : {
+        "_class" : "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed" : true,
+      "monitorData" : {
+        "hudson.node_monitors.SwapSpaceMonitor" : {
+          "_class" : "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory" : 442163200,
+          "availableSwapSpace" : 0,
+          "totalPhysicalMemory" : 8203046912,
+          "totalSwapSpace" : 0
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor" : {
+          "_class" : "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp" : 1548416597413,
+          "path" : "/tmp",
+          "size" : 9600106496
+        },
+        "hudson.node_monitors.DiskSpaceMonitor" : {
+          "_class" : "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp" : 1548416597128,
+          "path" : "/var/lib/jenkins",
+          "size" : 9600106496
+        },
+        "hudson.node_monitors.ArchitectureMonitor" : "Linux (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor" : {
+          "_class" : "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp" : 1548416597164,
+          "average" : 0
+        },
+        "hudson.node_monitors.ClockMonitor" : {
+          "_class" : "hudson.util.ClockDifference",
+          "diff" : 0
+        }
+      },
+      "numExecutors" : 2,
+      "offline" : false,
+      "offlineCause" : null,
+      "offlineCauseReason" : "",
+      "oneOffExecutors" : [
+        
+      ],
+      "temporarilyOffline" : false
+    },
+    {
+      "_class" : "hudson.slaves.SlaveComputer",
+      "actions" : [
+        {
+          
+        }
+      ],
+      "assignedLabels" : [
+        {
+          "name" : "Kube_Slave"
+        }
+      ],
+      "description" : "",
+      "displayName" : "Kube_Slave",
+      "executors" : [
+        {
+          
+        }
+      ],
+      "icon" : "computer.png",
+      "iconClassName" : "icon-computer",
+      "idle" : true,
+      "jnlpAgent" : false,
+      "launchSupported" : true,
+      "loadStatistics" : {
+        "_class" : "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed" : true,
+      "monitorData" : {
+        "hudson.node_monitors.SwapSpaceMonitor" : {
+          "_class" : "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory" : 952201216,
+          "availableSwapSpace" : 0,
+          "totalPhysicalMemory" : 3974496256,
+          "totalSwapSpace" : 0
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor" : {
+          "_class" : "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp" : 1548416597418,
+          "path" : "/tmp",
+          "size" : 20084973568
+        },
+        "hudson.node_monitors.DiskSpaceMonitor" : {
+          "_class" : "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp" : 1548416597136,
+          "path" : "/var/lib/jenkins_workspace",
+          "size" : 20084973568
+        },
+        "hudson.node_monitors.ArchitectureMonitor" : "Linux (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor" : {
+          "_class" : "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp" : 1548416597169,
+          "average" : 123
+        },
+        "hudson.node_monitors.ClockMonitor" : {
+          "_class" : "hudson.util.ClockDifference",
+          "diff" : 6
+        }
+      },
+      "numExecutors" : 1,
+      "offline" : false,
+      "offlineCause" : null,
+      "offlineCauseReason" : "",
+      "oneOffExecutors" : [
+        
+      ],
+      "temporarilyOffline" : false,
+      "absoluteRemotePath" : "/var/lib/jenkins_workspace/"
+    },
+    {
+      "_class" : "hudson.slaves.SlaveComputer",
+      "actions" : [
+        {
+          
+        }
+      ],
+      "assignedLabels" : [
+        {
+          "name" : "PYLINT_NODE"
+        }
+      ],
+      "description" : "",
+      "displayName" : "PYLINT_NODE",
+      "executors" : [
+        {
+          
+        }
+      ],
+      "icon" : "computer.png",
+      "iconClassName" : "icon-computer",
+      "idle" : true,
+      "jnlpAgent" : false,
+      "launchSupported" : true,
+      "loadStatistics" : {
+        "_class" : "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed" : true,
+      "monitorData" : {
+        "hudson.node_monitors.SwapSpaceMonitor" : {
+          "_class" : "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory" : 1739493376,
+          "availableSwapSpace" : 4160495616,
+          "totalPhysicalMemory" : 3975376896,
+          "totalSwapSpace" : 4160745472
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor" : {
+          "_class" : "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp" : 1548416597418,
+          "path" : "/tmp",
+          "size" : 47254429696
+        },
+        "hudson.node_monitors.DiskSpaceMonitor" : {
+          "_class" : "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp" : 1548416597136,
+          "path" : "/var/lib/jenkins",
+          "size" : 47254429696
+        },
+        "hudson.node_monitors.ArchitectureMonitor" : "Linux (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor" : {
+          "_class" : "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp" : 1548416597169,
+          "average" : 122
+        },
+        "hudson.node_monitors.ClockMonitor" : {
+          "_class" : "hudson.util.ClockDifference",
+          "diff" : 29268
+        }
+      },
+      "numExecutors" : 1,
+      "offline" : false,
+      "offlineCause" : null,
+      "offlineCauseReason" : "",
+      "oneOffExecutors" : [
+        
+      ],
+      "temporarilyOffline" : false,
+      "absoluteRemotePath" : "/var/lib/jenkins"
+    },
+    {
+      "_class" : "hudson.slaves.SlaveComputer",
+      "actions" : [
+        {
+          
+        }
+      ],
+      "assignedLabels" : [
+        {
+          "name" : "SONAR_NODE"
+        }
+      ],
+      "description" : "",
+      "displayName" : "SONAR_NODE",
+      "executors" : [
+        {
+          
+        }
+      ],
+      "icon" : "computer.png",
+      "iconClassName" : "icon-computer",
+      "idle" : true,
+      "jnlpAgent" : false,
+      "launchSupported" : true,
+      "loadStatistics" : {
+        "_class" : "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed" : true,
+      "monitorData" : {
+        "hudson.node_monitors.SwapSpaceMonitor" : {
+          "_class" : "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory" : 412651520,
+          "availableSwapSpace" : 2622488576,
+          "totalPhysicalMemory" : 3975241728,
+          "totalSwapSpace" : 4160745472
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor" : {
+          "_class" : "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp" : 1548416597418,
+          "path" : "/tmp",
+          "size" : 43684696064
+        },
+        "hudson.node_monitors.DiskSpaceMonitor" : {
+          "_class" : "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp" : 1548416597136,
+          "path" : "/var/lib/jenkins",
+          "size" : 43684696064
+        },
+        "hudson.node_monitors.ArchitectureMonitor" : "Linux (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor" : {
+          "_class" : "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp" : 1548416597169,
+          "average" : 122
+        },
+        "hudson.node_monitors.ClockMonitor" : {
+          "_class" : "hudson.util.ClockDifference",
+          "diff" : 1
+        }
+      },
+      "numExecutors" : 1,
+      "offline" : false,
+      "offlineCause" : null,
+      "offlineCauseReason" : "",
+      "oneOffExecutors" : [
+        
+      ],
+      "temporarilyOffline" : false,
+      "absoluteRemotePath" : "/var/lib/jenkins"
+    },
+    {
+      "_class" : "hudson.slaves.SlaveComputer",
+      "actions" : [
+        {
+          
+        }
+      ],
+      "assignedLabels" : [
+        {
+          "name" : "Test_node"
+        }
+      ],
+      "description" : "",
+      "displayName" : "Test_node",
+      "executors" : [
+        {
+          
+        },
+        {
+          
+        }
+      ],
+      "icon" : "computer.png",
+      "iconClassName" : "icon-computer",
+      "idle" : true,
+      "jnlpAgent" : false,
+      "launchSupported" : true,
+      "loadStatistics" : {
+        "_class" : "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed" : true,
+      "monitorData" : {
+        "hudson.node_monitors.SwapSpaceMonitor" : {
+          "_class" : "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory" : 2228604928,
+          "availableSwapSpace" : 7963000832,
+          "totalPhysicalMemory" : 12627111936,
+          "totalSwapSpace" : 8405377024
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor" : {
+          "_class" : "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp" : 1548416597418,
+          "path" : "/tmp",
+          "size" : 25294323712
+        },
+        "hudson.node_monitors.DiskSpaceMonitor" : {
+          "_class" : "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp" : 1548416597136,
+          "path" : "/var/lib/jenkins",
+          "size" : 25294323712
+        },
+        "hudson.node_monitors.ArchitectureMonitor" : "Linux (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor" : {
+          "_class" : "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp" : 1548416597169,
+          "average" : 121
+        },
+        "hudson.node_monitors.ClockMonitor" : {
+          "_class" : "hudson.util.ClockDifference",
+          "diff" : 1217422
+        }
+      },
+      "numExecutors" : 2,
+      "offline" : false,
+      "offlineCause" : null,
+      "offlineCauseReason" : "",
+      "oneOffExecutors" : [
+        
+      ],
+      "temporarilyOffline" : false,
+      "absoluteRemotePath" : "/var/lib/jenkins"
+    }
+  ],
+  "displayName" : "Nodes",
+  "totalExecutors" : 7
+}
